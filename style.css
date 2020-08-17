@@ -1,0 +1,41 @@
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+  
+th, td, caption {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+caption {
+    background-color: #D3D3D3;
+    font-weight: bold;
+}
+
+thead {
+    background-color: #ede7b8;
+    font-weight: bold;
+}
+
+
+td[scope="col"] {
+    background-color:#D3D3D3;
+    
+}
+
+td[scope="row"]  {
+    background-color: #ede7b8;
+    font-style: italic;
+  
+}
+
+td[scope="nico"]  {
+    background-color: #72ed8f;
+   
+}    
+
+td[scope="renaud"]  {
+    background-color: #a1d9e6;
+   
+}  
